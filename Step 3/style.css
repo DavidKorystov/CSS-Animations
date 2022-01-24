@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.clocks{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.arrow{
+    width: 200px;
+    position: absolute;
+    border: 2px solid black;
+    animation: example 60s infinite linear;
+    transform-origin: top left;
+    margin-left: 200px;
+
+}
+@keyframes example {
+    from{   transform: rotate(0deg);}
+    to{   transform: rotate(360deg);}
+}
+

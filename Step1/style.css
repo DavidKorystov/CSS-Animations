@@ -1,0 +1,28 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.test{
+    height:100px;
+    width:100px;
+    background:rgba(34, 82, 238, 0.699);
+    animation: burst_spin 2s infinite linear; 
+}
+@keyframes burst_spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-360deg); }
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: white;
+    width: 400px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
